@@ -4,9 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test:promise": "promises-aplus-tests src/promise/index.js"
+    "test:promise": "promises-aplus-tests src/promise/index.js",
+    "test:immer": "jest __test__/immer"
   },
   "dependencies": {
-    "promises-aplus-tests": "^2.1.2"
+    "promises-aplus-tests": "^2.1.2",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.1",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1"
   }
 }
